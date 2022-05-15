@@ -22,6 +22,9 @@ import {SharedModule} from './shared/shared.module';
     ReactiveFormsModule,
     SharedModule,
   ],
+  exports: [
+    ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
