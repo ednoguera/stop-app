@@ -10,6 +10,10 @@ import { LoginFormComponent } from './login-form/login-form.component';
     NavbarComponent,
     LoginFormComponent
   ],
+  exports: [
+    NavbarComponent,
+    LoginFormComponent
+  ],
   imports: [
     CommonModule
   ]
